@@ -1,0 +1,18 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: opscode-centos-6.5   
+  - name: opscode-debian-7.2.0 
+  - name: opscode-fedora-20    
+  - name: opscode-ubuntu-14.04 
+
+suites:
+  - name: default
+    run_list:
+    - recipe[libbzip2::default]
+    attributes: {}
