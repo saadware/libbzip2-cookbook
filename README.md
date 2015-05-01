@@ -1,11 +1,11 @@
 # libbzip2-cookbook
 
-Installs the libbzip2 development package.
+Installs the [libbzip2](http://www.bzip.org/) development package.
 
 ## Supported Platforms
 
 * CentOS
-* RHEL
+* Redhat
 * Debian
 * Fedora
 * Ubuntu
@@ -27,3 +27,5 @@ Include `libbzip2` in your node's `run_list`:
 ## License and Authors
 
 Author:: Scott Saad (<saadsj@gmail.com>)
+
+License:: [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
